@@ -1,0 +1,240 @@
+/* Available fonts
+	font-family: 'Nunito', sans-serif;
+*/
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  font-weight:100%;
+  background: #fff;
+  color: #000
+  font-family: 'Nunito', sans-serif;
+}
+
+
+/*---start-wrap-----*/
+.wrap{
+	width:80%;
+	margin:0 auto;
+}
+/*---start-header----*/
+.header{
+	background: #fff;
+	height: 79px;
+	/* border-bottom: 1px dashed #FFFDFD; */
+	padding: 0.3em 0.3em;
+
+}
+/*---start-top-nav----*/
+.top-nav{
+	text-align: center;
+}
+/*---start-top-content----*/
+.top-content{
+	text-align: center;
+	margin: 10px auto;
+
+}
+.top-content h1{
+	font-size: 20px;
+	letter-spacing: 0.4em;
+	width: 62%;
+	word-spacing: 0.2em;
+	margin: 2em auto;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: normal;
+	line-height: 1.5em;
+	color: #000;
+	font-family: 'Nunito', sans-serif;
+}
+
+/*---start-notify-form----*/
+.notify{
+	text-align: center;
+	margin: 2em auto 0 auto;
+	padding: 0.5em 2em 2em 2em;
+	/* background: #a65e42 */
+}
+.notify h3{
+	font-size: 12px;
+	color: #000;
+	text-transform: uppercase;
+	padding: 1em 0;
+	word-spacing: 2px;
+	font-family: 'Nunito', sans-serif;
+}
+.notify input[type="email"]{
+	width: 60%;
+	padding: 12px;
+	/*border: none;
+	outline: none;*/
+	color:#000000;
+	background: #000;
+	font-family: 'Nunito', sans-serif;
+	height: 50px;
+}
+
+.notify form{
+	border:none;
+	width: 45%;
+	margin: 0 auto;
+}
+.notify h2{
+	color: #000;
+	font-size: 1.5em;
+	margin: 0 0 1em 0;
+	font-family: 'Nunito', sans-serif;
+}
+.notify input[type="submit"]{
+	padding:12px;
+	border:none;
+	outline:none;
+	background:#990000;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	color:#FFF;
+	cursor:pointer;
+	font-family: 'Nunito', sans-serif;
+	height: 50px;
+	width: 30%
+}
+.notify input[type="submit"]:hover{
+	background:#990000;
+	color:#FFF;
+}
+
+
+
+/*---start-footer----*/
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  font-family: 'Nunito', sans-serif;
+  text-align:center;
+  background: #fff;
+  border-top: 1px dashed #000;
+  padding:1em 0;
+}
+.footer-social-icons ul li{
+	display:inline-block;
+}
+.footer-social-icons ul li a{
+	padding:0px 5px;
+}
+.footer-social-icons p{
+	font-size: 0.875em;
+	color: #000;
+	letter-spacing: 0.07em;
+	margin-top:0.5em;
+}
+.footer-social-icons p a{
+	color:#000;
+}
+
+.separe {
+	width: 70px;
+	height: 1px;
+	background-color: #333333;
+	margin: 0 auto;
+}
+/*----responsive-design-----*/
+
+/*------------------------------------------
+  Responsive Grid Media Queries - 1280, 1024, 768, 480
+   1280-1024   - desktop (default grid)
+   1024-768    - tablet landscape
+   768-480     - tablet
+   480-less    - phone landscape & smaller
+--------------------------------------------*/
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    .wrap{
+		width:90%;
+	}
+	.top-content h1 {
+		width: 70%;
+	}
+	.notify form {
+		width: 45%;
+	}
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    .wrap{
+		width:90%;
+	}
+	.top-content h1 {
+		width: 70%;
+		font-size: 2.2em;
+	}
+	.notify form {
+		width: 78%;
+	}
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .wrap{
+		width:90%;
+	}
+	.top-content h1 {
+		width: 70%;
+		font-size: 2.2em;
+	}
+	.notify form {
+		width: 78%;
+	}
+}
+
+@media all and (max-width: 480px) {
+    .wrap{
+		width:90%;
+	}
+	.top-content h1 {
+		width: 70%;
+		font-size: 2.2em;
+	}
+	.notify form {
+		width: 100%;
+	}
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.slider {
+	width: 50%;
+	margin: 10px auto;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+  height:100%;
+  
+}
+
+.slick-prev:before,
+.slick-next:before {
+	color: black;
+}
+
+

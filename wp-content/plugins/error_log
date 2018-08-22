@@ -1,0 +1,2 @@
+[09-May-2017 17:35:03 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/atenta/public_html/catspaw.be/wp-content/plugins/hello.php on line 60
+[25-May-2017 23:37:02 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/atenta/public_html/catspaw.be/wp-content/plugins/hello.php on line 60
